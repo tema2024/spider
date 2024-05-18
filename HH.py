@@ -28,7 +28,7 @@ for vacancy in vacancies:
 
 driver.quit()
 
-# Write to CSV file
+
 with open("hh.csv", mode='w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerow(['Название вакансии', 'Название компании', 'Зарплата', 'Ссылка на вакансию'])

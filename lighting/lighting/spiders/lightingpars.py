@@ -14,4 +14,3 @@ class LightingparsSpider(scrapy.Spider):
                 'price': light.css('div.tPt2t span::text').get(),
                 'url': light.css('a').attrib['href']
             }
-
